@@ -1,0 +1,75 @@
+body {
+    background-color: transparent !important;
+  }
+
+  .app{
+      width: 93%;
+      background-color: transparent !important;
+  }
+  
+  .app .ql-container {
+    background: transparent !important;
+  }
+
+  .ql-toolbar{
+    border: 1px solid white;
+    border-radius: inherit;
+    font-size: 13px !important;
+  }
+  
+  .ql-tooltip-arrow{
+    border-top-color: white !important;
+  }
+
+  .app .ql-editor {
+    line-height: 1.2em;
+    border: none;
+    background-color: transparent !important;
+    text-transform: capitalize;
+    box-sizing: border-box !important;
+    color: white;
+  }
+
+  .quill > .ql-container > .ql-editor.ql-blank::before{
+    color: white;
+    font-style: inherit;
+  }
+
+ .ql-editor:hover{
+    border:1px dashed white;
+  }
+
+.ql-editor:focus{
+    border:1px dashed white;
+  }
+
+  .ql-toolbar{
+    background-color: white;
+    color: black;
+  }
+
+  .ql-toolbar{
+    opacity: 1;
+  }
+
+  .ql-bubble .ql-tooltip:not(.ql-flip) .ql-tooltip-arrow {
+    border-bottom: 6px solid white !important;
+    top: -6px;
+  }
+
+  .ql-fill{
+      fill: black !important;
+  }
+
+ .ql-picker {
+      color:black !important;
+  }
+
+  .ql-stroke{
+    stroke:black !important;
+  }
+
+  .gEtmIx, .gHPgMj{
+    /* -webkit-justify-content:none !important; */
+    justify-content:flex-start !important;
+  }

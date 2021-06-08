@@ -1,0 +1,83 @@
+.iconsButtons {
+    color: #CCCCCC;
+    margin-right: 5px !important;
+}
+.playButtons {
+    color: #4B0083;
+    border-radius: 180px !important;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    background-color: #fff !important;
+    border: #4B0083 2px solid !important;
+}
+.pauseButton {
+    color: #FFFF;
+    background-color: #4B0083 !important;
+}
+.MuiSvgIcon-root{
+    font-size: 22px !important; 
+}
+/* .arrows {
+    color: #4B0083;
+} */
+.wrap_player {
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.wrap_range,.wrap_volume {
+    display: contents;
+}
+/* .MuiSlider-thumb{
+    top:15px;
+} */
+.Wplayer {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.Iconspik{
+    color: #4B0083;
+    font-size: 20px !important;
+}
+
+.volumeInput {
+    /* display: none; */
+    width: 10% !important;
+    opacity: 0.0;
+    -webkit-transition: all 5000ms ease-in-out;
+    -moz-transition: all 5000ms ease-in-out;
+    -ms-transition: all 5000ms ease-in-out;
+    -o-transition: all 5000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+
+}
+.Iconspik:hover+.volumeInput {
+    opacity: 1.0;
+
+}
+
+.volumeInput:hover {
+    display: block !important;
+    opacity: 1.0 !important;
+}
+/* .MuiSlider-root{
+     width: 50px !important; 
+} */
+.tt {
+    text-align: initial !important;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    bottom: 10px;
+    color: #4B0083;
+}
+
+.MuiSlider-thumb{
+    top: 16px;
+}
+.MuiSlider-root{
+    width: 100%; 
+}

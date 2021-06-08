@@ -1,0 +1,263 @@
+label {
+    margin-top: 0 !important;
+}
+
+.textField {
+    margin-top: 7px!important;
+    /* margin-right: 3px!important; */
+}
+.ChannelColorIcn{
+     color: #959595;
+     cursor: pointer;
+     font-size: 20px;
+}
+.ShowConfiguratorWith{
+    width: 99% !important;
+}
+.ImgEditHeaderStyle{
+    width: 35px; height: 25px; border: 0px ;
+}
+.DivEditHeader{
+    background-color: #F0F0F0;
+}
+.configuratorTextarea {
+    border: none;
+    background-color:#E8EAEC;
+    resize: none !important;
+    width: 100%;
+    text-transform: capitalize;
+    /* height: 80px; */
+}
+.LogoChnnel{
+    margin-top: 10px;
+}
+
+.inputFileInUploadDiv {
+    size: 300px;
+}
+
+
+
+.inputfilelogin {
+    width: 1px;
+    height:  1px;
+    opacity: 1;
+    overflow:hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+/* PICKER */
+element.style {
+    width: 200px;
+    background: #0000(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* box-shadow: rgb(0 0 0 / 15%) 0px 3px 12px; */
+    border-radius: 4px;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.github-picker{
+    width: 200px;
+    background: #0000 !important;
+    border: #0000 !important;
+    box-shadow: #0000 0px 0px 0px !important;
+    border-radius: 4px;
+    position: unset !important;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.inputfile {
+    width:  0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    cursor: pointer;
+}
+
+.divOnHover {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 1%;
+    top:5px;  
+    background-color:#E8EAEC;
+ }
+
+.divOnHover .divUploadImage {
+    display: block;
+}
+
+.divUploadImage {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.iconDiv {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #cccccc;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    padding: 20px;
+}
+
+.iconDiv:hover {
+    opacity: 1;
+}
+
+.iconCloudUpload {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+}
+/* PICKER */
+
+.github-picker{
+    width: 100%;
+    background: #0000 !important;
+    border: #0000 !important;
+    box-shadow: #0000 0px 0px 0px !important;
+    border-radius: 4px;
+    position: unset !important;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.github-picker>span{
+    margin: 3px;
+}
+/* PICKER */
+.GithubPicker{
+    border: 3px solid #fff;
+    padding: 3px;
+}
+
+/* .circle{
+    background-color:#959595;
+    border-radius: 50%;
+     
+}
+.square{
+    background-color:#959595 ;
+     width: 7.961783439490446%;
+    height: 7.961783439490446%;
+    padding: 3.184713375796178%;
+ }
+input[type="color" i]{
+border:solid 1px 1px black !important;
+width: 14.3312101910828%;
+height: 14.3312101910828%;
+}
+.buttonStyle{
+    background-color: #F0F0F0 ;
+    opacity: 1;
+    width: 14.3312101910828%;
+    height: 14.3312101910828%;
+    max-width: 45px;
+    max-height: 45px;
+ 
+} */
+.MuiSwitch-colorSecondary.Mui-checked+.MuiSwitch-track {
+    background-color: #e1caf3 !important;
+}
+
+.MuiSwitch-thumb {
+    background-color: #4b0083 !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.MuiTypography-body1 {
+    /* font-size: small !important; */
+    font-size: 12px !important;
+}
+
+.MuiFormLabel-root {
+    font-size: small !important;
+    /* padding-left: 20px; */
+}
+
+.MuiFormGroup-root {
+    direction: rtl;
+    display: grid !important;
+    /* padding-left: 5px; */
+}
+
+.MuiTypography-root {
+    margin-right: 0px !important;
+}
+
+.accordion>.card>.card-header {
+    /* background-color: #E8EAEC !important; */
+    background-color: #fff;
+}
+.accordion>.card>.card-header:hover{
+    background-color: #E8EAEC !important;  
+}
+
+.MuiFormControl-root {
+    margin: 1rem !important;
+}
+/* .card-header {
+    padding: 3px !important;
+
+} */
+
+.IconColor{
+    color: #959595;
+}
+
+.BoldIconColor{
+   color: black;
+}
+.github-picker>span{
+    margin:3px;
+    /* width: 10%;
+   height: 10%; */
+}
+.github-picker>span>div{
+    width: 16px !important;
+    height: 16px !important;
+}
+.SelectChanel{
+    height: 20px;
+    margin-left: 15px;
+    background-color: #F0F0F0; 
+}
+.ChnnelSettingsColor{
+    background-color: #F0F0F0;
+}
+.card {
+    width: 100% !important;
+}
+.ChannelColorwidth{
+    width: 185px !important;
+}
+.MuiFormControlLabel-root {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.FormControlW{
+    width: 100%;
+}
+.marginTop{
+    margin-top: -12px;
+}
+.MuiFormControl-root{
+    margin-left: 0px !important;
+}

@@ -1,0 +1,50 @@
+.paperNew {
+    height: 130px;
+    width: 190px;
+    background-size: 100% 100%;
+}
+
+.GridNew {
+    margin: 10px !important;
+}
+.GridNew_1{
+    margin: 10px !important;
+    background-color: lawngreen;
+}
+
+.MuiGrid-item {
+    margin: 9px;
+    box-sizing: border-box;
+}
+.addRounded{
+    color: #fff;
+    font-size: 4rem !important;
+    margin-top: 20px;
+}
+.addNewPaper{
+    margin-top: -20px;
+    color:#fff;
+    /* background-image: ; */
+}
+.BackgroundChannel{
+    height: 100vh;
+    /* backgroundColor:#E8EAEC; */
+}
+.GridAddChannel{
+    margin: 35px;
+}
+.MuiGrid-container {
+    width: 90% !important}
+    .NavAddChannel{
+        width: 100%;
+        background-color: #d5d7d8 !important;
+    }
+    .IconChannel{
+        margin: 10px;
+        margin-left: 20px !important;
+    }
+    .FontIconNav{
+        margin: 5px;
+        font-size: 17px;
+        color:#959595;
+    }

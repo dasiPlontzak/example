@@ -1,0 +1,36 @@
+.SubScriberInputn {
+    width:100%;
+    height: 30px;
+    background-color: #ede5f2;
+    border: 1px solid #ede5f2;
+    margin-bottom: 10px;
+}
+.SubScriberInputn:hover{
+    border: 1px solid #4B0083;
+}
+.SubScriberButton{
+    /* width: 270px; */
+    width: 100%;
+    height: 30px;
+    background-color:#4B0083 ;
+    color: #ede5f2;
+    cursor: pointer;
+}
+/* .modelSubScriberSize{
+    width: 55%;
+}
+.modal-dialog{
+    width: 50%;
+}
+.modal-content {
+    width: 70% !important;
+} */
+.ModelSubScriber{
+    width: 70% !important;
+}
+.errorMessage{
+    position: absolute !important;
+    top: 295px !important;
+    width: 240px !important;
+    left: 115px;
+}

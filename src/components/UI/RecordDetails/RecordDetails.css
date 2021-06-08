@@ -1,0 +1,208 @@
+.wrapRecordView {
+    background-color: #E8EAEC;
+    width: 100%;
+}
+
+.playButton {
+    border: none;
+    border-radius: 50%;
+    background-color: #4B0083;
+    height: 50px;
+    width: 50px;
+}
+
+.playIcons {
+    color: white;
+    font-size: xx-large;
+}
+
+.recordPlayer {
+    background-color: #FFFFFF;
+}
+
+.wrap_createDate {
+    width: 36%;
+}
+
+.wrap_recordDetails {
+    margin-left: 10%;
+    margin-top: 5%;
+    /* width: 56%; */
+    width: 95%;
+}
+
+.textDetails {
+    text-align: left;
+    padding: 2%;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    cursor: pointer;
+}
+
+.currentAudioUploadImgOnHover {
+    position: relative;
+    width: 100% !important;
+    /* height: auto !important; */
+}
+
+.currentAudioUploadImgOnHover .divUploadImage {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 17rem;
+    width: 72%;
+    /* margin-left: 14%; */
+    margin-top: 3% !important;
+}
+
+.divUploadImage {
+     width: 100% !important; 
+    margin-top: 0px !important;
+     
+}
+
+.iconDiv {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #cccccc;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+
+.iconDiv:hover {
+    opacity: 1;
+}
+
+.iconCloudUploadForCurrentAudio {
+    font-size: 350%;
+}
+
+.textUploadImg {
+    color: #fff;
+    font-size: x-large;
+    width: 100%;
+}
+.wrapIconUpload {
+    position: absolute;
+    bottom: 40%;
+    right: 36%;
+     /* align-items: center; */
+ }
+.wrapIconUpload:hover{
+opacity: 1;
+}
+.wrapIconEdit{
+    position: absolute;
+    bottom: 40%;
+    right: 35%;
+ }
+
+.titleInput {
+    font-size: x-large;
+    display: block;
+    font: normal normal 900 40px/53px Roboto;
+    width: 90%;
+
+}
+
+.descriptionInput {
+    min-height: 17em;
+    min-width: 90%;
+    font: normal normal normal 16px/20px Roboto;
+
+}
+.edit:hover{
+    border:2px dashed #fff;
+}
+.editButton{
+  background-color: #4B0083 !important;
+  border: 0px;
+  /* border-radius: 0px; */
+  box-shadow: none;
+  margin: 3px;
+}
+.editButton:hover{
+    background-color:  #4B0083 !important ;
+}
+.ff{
+   margin-right: 0px !important; 
+}
+.MuiTypography-root {
+    margin-right: 0px !important;
+}
+.Demo-slider-21 {
+    padding-top: 16px !important ;
+    padding-left:0px !important;
+    padding-bottom: 16px !important;
+    padding-right: 0px !important;
+}
+.Crop>.modal-dialog>.modal-content{
+    border: 0px !important;
+    background-color: transparent !important;
+}
+.MuiSlider-root{
+    color:  #4B0083 !important;
+}
+
+.InputSubscriber{
+    height: 40px;
+    width: 80%;
+    /* height: 35px;
+    width: 90%; */
+    background-color: #4B00831A;
+    border: 0px;
+    margin: 2%;
+}
+.ButtonSubscriber{
+    height: 40px;
+    width: 80%;  
+    /* height: 35px;
+    width: 90%;   */
+    color: #FFFFFF;
+    background-color: #4B0083;
+    border: 0px;
+    margin: 2%;
+    margin-bottom: 8%;
+}
+.wrap_createDateSubscriber{
+    margin-top: 1%;
+    /* margin-top: 5%; */
+    /* background-color: #FFFFFF; */
+    margin-right: -2%;
+    width: 100%;
+}
+.BoxSubscriber{
+    margin-top: 15%;
+    background-color: #FFFFFF;
+    height: 275px;
+    width: 90%;
+}
+.ImgLogoSubscide{
+    width: 140px;
+    margin-top: 5%;
+}
+
+.buttonCrop{
+    margin-left: 8px;
+    border-radius: 10%;
+    border: 0px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+.inputfilecrop{
+    margin: 0px !important;
+}

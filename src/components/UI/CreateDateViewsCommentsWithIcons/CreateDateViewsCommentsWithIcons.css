@@ -1,0 +1,8 @@
+.onHoverDetailsIcons {
+    margin-right: 3px;
+}
+
+.wrap_details {
+    display: flex;
+    justify-content: space-between;
+}

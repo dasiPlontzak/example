@@ -1,0 +1,113 @@
+#wrap_center {
+  height: calc(100vh - 40px);
+  margin: 0 !important;
+}
+
+.configurator {
+  z-index: 2;
+  padding-left: 0 !important;
+}
+
+.wrapStage {
+  z-index: 1;
+  padding: 0 !important;
+  height: calc(100vh - 5px);
+  overflow: auto;
+}
+
+.innerDivBottomConfigurator {
+  background-color: #ebac00;
+  border: #ebac00 solid;
+  color: #fff;
+  /* position: fixed; */
+width: 100%;
+  margin: 5px;
+  height: 35px;
+}
+.innerDivBottomCancel{
+  background-color: #fff;
+  border: #959595 solid;
+  color: #959595;
+  /* position: fixed; */
+width: 100%;
+  margin: 5px;
+  height: 35px;
+}
+.innerDivBottomConfiguratorFix{
+ background-color: #fff;
+  width: 15.5%;
+  /* width: 100%; */
+  position: fixed;
+  bottom: 0;
+}
+
+#bottom_configurtor {
+  position: fixed;
+  z-index: 3;
+  padding-right: 0px !important;
+  bottom: 0;
+  display: inline-block;
+  /* right:0; */
+  right: -10px;
+}
+
+#body {
+  background-color: #E8EAEC;
+  font-size: 0.8rem !important;
+  /* overflow: hidden; */
+}
+
+.center_width_on_open_con {
+  width: 80% !important;
+}
+
+.center_width_on_close_con {
+  width: 80% !important;
+}
+
+.ShowConfiguratorColor {
+  background-color: #fff;
+}
+.github-picker {
+  /* width: 100% !important; */
+}
+.ShowConfiguratorColorIcn{
+  color: #959595;
+}
+ div>span>div>span:nth-child(){
+   margin: 2px;
+ }
+ @media screen and (max-width: 540px) {
+  .responsiveGrid {
+      /* grid-template-columns: repeat(1, 1fr) !important; 
+       position: absolute;
+      bottom: 1000px;
+      margin-left: 5px; */
+  }
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-corner{
+  width: 0px;
+}
+::-webkit-resizer{
+  width: 0px;
+}
+.StyCol{
+  position: static !important;
+}
+
+/* ///////// */
+#LC_userComponent{
+  float: right;
+}
+#LC_userDetailsDiv{
+  z-index: 10;
+}
+
+.ShowConfiguratorWidth{
+  width: 100%;
+  margin: 0px;
+}

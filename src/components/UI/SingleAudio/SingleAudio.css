@@ -1,0 +1,188 @@
+.singleAudioCard {
+    background-color: white;
+    /* padding: 4px!important; */
+    text-align: left;
+    margin-bottom: 5vh;
+    position: relative;
+}
+
+.card-img {
+    border-radius: 0px !important;
+    width: 100%;
+    height: 100%; 
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: small;
+}
+
+.playButton {
+    border: none;
+    height: 45px !important;
+    width: 45px !important;
+    position: absolute;
+    right: 30px;
+    font-size: large;
+}
+
+.cardBodyPlayer {
+    position: relative;
+    font-size: large;
+}
+
+.listPlayButton {
+    top: 30px;
+}
+
+.durationSpan {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.cardBody {
+    padding: 10px!important;
+    height: calc(65% - 70px);
+    overflow-y: hidden;
+}
+
+.gridCard {
+    height: 50vh;
+    /* width: 49vh; */
+    width: 95%;
+}
+
+.listCard {
+    height: 23vh;
+}
+
+.gridCardBodyLinks {
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+}
+.gridPlayButton {
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+}
+.listCardBodyLinks {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+
+.reverseColumnOrder {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 10px;
+}
+
+.cardBodyFooter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.reverseOrder {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.divHoverImg {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to bottom, transparent 70%, black 98%);
+    opacity: 0;
+}
+
+.divHoverImg:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+img{
+    cursor: pointer !important;  
+}
+.divOfImg {
+    position: relative;
+    padding: 0px!important;
+    height: 40%;
+}
+
+.listDivOfImg {
+    height: 100%;
+}
+
+.listCardBody {
+    height: 90%;
+}
+
+.detailsOnHover {
+    position: absolute;
+    bottom: 7px;
+    right: 9%;
+    left: 9%;  
+}
+.mr-auto, .mx-auto {
+    margin-right: -35px !important;
+}
+.auto {
+
+    padding-right: 0px !important;
+  
+}
+/* .col-xl-auto{
+    padding-right: 0px !important;
+} */
+.col-xl-auto{
+    padding-right: -5px !important;
+} 
+.TimeAndPodcastSharingOption{
+    /* margin-top: 37%; */
+   position: absolute;
+    bottom: 7%;
+}
+
+.BTPlaySingle{
+    text-align: center;
+    margin-bottom: 4%;
+    right: 15px;
+}
+.TimeAndPodcastSharingOption_a{
+    margin-top: 22px;
+    margin-left:10px !important;
+    margin-right: 0px !important;
+}
+.card-title {
+    margin-bottom: 0.5rem !important;
+}
+.addNewPodcast{
+    margin: 20px;
+}
+.addSingleAudio{
+    border: black dashed 1px;
+    background-color: #0000000d;
+}
+.ListSizePlus{
+    font-size: 20vh !important;
+    margin-top: 10vh;
+}
+.GridSizePlus{
+    font-size: 5vh !important;
+}
+
+.GridSize{
+    font-size: 3vh  
+}
+
+.shortDescription{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

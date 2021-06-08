@@ -1,0 +1,16 @@
+:root {
+  --white: #fff;
+}
+
+#wrap-configurator {
+  background-color: var(--white);
+  color: #EBEAEA;
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  min-height: calc(100vh - 7.4%);
+  padding: 0px;
+  width: 100%;
+  opacity: 1;
+  /* z-index: 2; */
+}

@@ -1,0 +1,53 @@
+.InstagramBoutton{
+    /* padding-left: 3px; */
+    margin-top: 20px !important;
+    margin-left: 5px !important;
+    border: #9083991a 2px solid !important;
+    color: #fff !important;
+    /* width: 24%; */
+    height: 140% !important;
+}
+.Instagram{
+    background-color: #cc2364 !important;
+}
+.Facebook{
+    background-color:#868da5 !important;  
+}
+.WhatsApp{
+    background-color:#45c456 !important;
+}
+.Twitter{
+    background-color:#76a9ea !important;
+}
+.InstegaramInput{
+    width: 80% !important;
+    height: 33px !important;
+    background-color: #9083991a !important;
+    border: #fff 1px solid !important;
+    /* margin-top: 2px; */
+}
+.InstegaramInputButton{
+    background-color: #4B0083 !important;
+    color:#ede5f2 !important;
+    border:#4B00831A 1px solid !important;
+    width:22% !important;
+    height: 33px !important;
+    /* margin-bottom: 2px; */
+}
+
+.modal-content {
+    width: auto !important;
+}
+.modal-header{
+    padding: 0px !important;
+    border-bottom: 0px solid #dee2e6 !important;
+}
+.tooltip-inner{
+    /* opacity: 0.0; */
+    /* display: block !important; */
+    -webkit-transition: all 5000ms ease-in-out;
+    -moz-transition: all 5000ms ease-in-out;
+    -ms-transition: all 5000ms ease-in-out;
+    -o-transition: all 5000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+}

@@ -1,0 +1,54 @@
+.ImgPlay{
+    border-radius: 50%;
+    border-width: 10%;
+    border-color: white;
+    position: absolute;
+    
+}
+.imgBackGround{
+  cursor: pointer  !important;
+
+}
+.imgBackGround + svg{
+    margin-top: -33%;
+    margin-left: -71%;
+    font-size: 250%;
+    color:white;
+    cursor: pointer  !important;
+}
+
+.titleClass{
+    /* marginLeft: marginLeftTitle, marginTop: "-4%", marginBottom: "12% !important",
+     textAlign: "start", fontWeight: "bold", color: "black", fontSize: "x-large !important" */
+    margin-bottom: 12% !important;
+    margin-top:4% ;
+    margin-bottom: 12% !important;
+    text-align: start;
+    font-weight:bold ;
+    color:black;
+    font-size: medium !important;
+
+}
+
+/* .wrapperFloating> .MuiSlider-root{
+    width: 90px !important; 
+} */
+
+.wrapperFloating> .wrap_player {
+    display: table-caption;
+}
+
+  .CircularProgressbar .CircularProgressbar-path{
+    stroke: #4b0083;
+  }
+.imgArrow{
+    margin-top:4%;
+    cursor: pointer;
+}
+
+
+.FloatingPlayerRepeat{
+  margin-top: -15%;
+  margin-left: 20%;
+  cursor: pointer;
+}

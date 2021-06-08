@@ -1,0 +1,10 @@
+.IconSharing{
+    color: #CCCCCC;
+}
+.IconSharing:hover{
+    color: #4B0083;
+}
+.Favorite{
+    margin-left:'5px';
+    margin-right:'5px';
+}

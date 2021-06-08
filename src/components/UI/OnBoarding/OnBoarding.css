@@ -1,0 +1,78 @@
+.WhoAreYouDiv{
+    margin-top: 30px !important;
+    margin-bottom: 10px;
+}
+/* IT */
+.OnBoardingTextField{
+    background-color: #4B00831A;
+    /* height: 5px !important; */
+}
+.MuiInputBase-input {
+    height: 4px !important;
+}
+/* .OnBoardingTextField:hover{
+    border: #7161bb 3px  solid!important;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+} */
+/* .Stopwatch{
+    width: 100px;
+} */
+.BrandnameDiv{
+    border: #7161bb 3px  dotted!important;
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+}
+.BrandnameIcon{
+    font-size: 75px !important;
+    color:#7161bb ;
+    padding: 10px;
+
+}
+.LoadingChannel{
+    padding: 20px;
+}
+.modal-content{
+    border-radius: 0px !important;
+}
+.modal-footer{
+    justify-content: center !important;
+    display: grid !important;
+}
+.OnBrandColor>span>div>span>div{
+    width: 35px !important;
+    height: 35px !important;
+    /* padding:  2px !important; */
+}
+/* .OnBrandColor>span>div>span{
+    margin: 10px !important;
+} */
+
+.github-picker_1>span{
+    margin: 15px !important; 
+}
+.github-picker_1{
+    /* width: 100px; */
+    width: 85% !important;
+    height: 150px;
+    background: #0000 !important;
+    border: #0000 !important;
+    /* box-shadow: #0000 0px 0px 0px !important; */
+    border-radius: 4px;
+    position: unset !important;
+    padding: 25px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+} 
+.OnBoardingMain{
+    height: 300px;
+}
+.LetsStart{
+    margin-top: 20px;
+    text-align: center
+}
+.WhoAreYou{
+    text-align: center  
+}

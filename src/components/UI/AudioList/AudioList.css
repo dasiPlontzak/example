@@ -1,0 +1,228 @@
+.inputNoneDisplay {
+    border: none;
+    resize: none;
+    background-color: unset;
+    text-transform: capitalize;
+    overflow: auto;
+}
+.textAreaChannelTitle{
+    max-height: 150px !important;
+    min-height: 110px !important;
+    /* padding-left: 9px !important; */
+    resize: none !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    width: 93%;
+}
+
+.textAreaChannelTitleBody{
+    max-height:  48px !important;
+    min-height: 48px !important;
+    /* padding-left: 9px !important; */
+    resize: none !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    width: 93%;
+}
+
+.linksIcons {
+    font-size: large;
+    margin-right: 5px;
+    color: #CCCCCC;
+}
+.linksIcons:active {
+    color: #490081;
+}
+.title {
+    line-height: 50px;
+}
+.header {
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logoImage {
+    height: 15%;
+    width: auto;
+}
+#stage {
+    overflow-y: auto;
+    overflow:  hidden !important;
+    /* margin: 2% !important; */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width:none;
+    /* Firefox */
+    /* padding:5%!important; */
+    padding-left:1% !important ;
+    margin-left: 1.5% !important;
+    /* background-color: #FFFFFF; */
+    background-color: #E8EAEC;
+}
+#stage::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+.editGridIcons {
+    text-align: left;
+}
+.channelNameLine {
+    padding: 10px;
+}
+.searchIcon {
+    text-align: right;
+    padding-left: 4vw !important;
+}
+@media screen and (max-width: 1000px) {
+    .responsiveGrid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .responsiveGrid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination>li>a {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.active>a {
+    background-color: #2F0068 !important;
+    color: white !important;
+    border: none !important;
+}
+.previous,
+.next {
+    margin: 33px !important;
+    padding: 0 !important;
+}
+.previous>a,
+.next>a {
+    display: contents;
+}
+.previous>a>div,
+.next>a>div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 10px;
+    border: solid 1px #DFDFDF;
+}
+.paginationP {
+    width: 80px !important;
+}
+.pagination{
+    display: inline-flex !important;
+}
+.showInPage{
+    background-color: white;
+    height: 40px !important;
+    border: #E8EAEC 1px solid;
+}
+.Subscribe {
+    width: 100px;
+    height: 35px;
+    color: #2F0068;
+    position: absolute;
+    bottom: 7%;
+    cursor: pointer;
+}
+.SubscribeForm {
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+h6{
+    margin-top: 5px !important;
+}
+/* .SubscribeForm {
+    padding-top: 5px;
+} */
+/* element.style {
+    position: relative;
+} */
+.AudioDivContainer {
+    position: static;
+    background-color: #fff;
+    width: 99%;
+
+}
+#body{
+    overflow-x: hidden !important;
+}
+/* element.style {
+    visibility: hidden;
+    position: absolute;
+    bottom: 10%;
+} */
+.textAreaChannel::placeholder{
+    color: white;
+}
+ .editText:hover{
+border:1px dashed
+}
+  .pointer{
+      cursor: pointer;
+}
+@media (min-width: 1000px){
+    .container{
+        max-width: 98% !important;
+    }
+}
+.wrapIconUploadInHome {
+    position: absolute;
+    bottom: 6%;
+    right: 3%;
+     /* align-items: center; */
+ }
+ .wrapIconUploadInHome:hover{
+opacity: 1;
+}
+
+
+
+
+
+/* /////// */
+.wrapIconUploadInHome {
+    position: absolute;
+    bottom: 6%;
+    right: 3%;
+     /* align-items: center; */
+ }
+ .wrapIconUploadInHome:hover{
+opacity: 1;
+}
+
+
+.textAreaChannelTitle{
+    max-height: 150px !important;
+    min-height: 110px !important;
+    /* padding-left: 9px !important; */
+    resize: none !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    width: 93%;
+}
+.textAreaChannelTitleBody{
+    max-height:  48px !important;
+    min-height: 48px !important;
+    /* padding-left: 9px !important; */
+    resize: none !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    width: 93%;
+}

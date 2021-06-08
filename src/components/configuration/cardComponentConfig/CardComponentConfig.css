@@ -1,0 +1,45 @@
+.card {
+  border-radius: 0% !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: black;
+  width: 100% !important;
+}
+.WidthCardDiv{
+  width:90%;
+}
+.card-header {   
+  /* background-color: #F0F0F0 !important; */
+  padding: 8px !important;
+  background-color: #fff !important;
+  cursor: pointer;
+}
+.CardColor{
+  background-color: #E8EAEC !important;  
+}
+
+.rotateArrowIconRight {
+  transform: rotateZ(90deg);
+
+}
+
+.rotateArrowIconLeft {
+  transform: none;
+
+}
+
+.accordion {
+  /* height: calc(68vh - 2.6vh); */
+  height: calc(90% - 8%);
+  /* height: calc(80vh - 0.3vh); */
+  overflow-y: auto !important;
+}
+
+.CardConfigMargin {
+  margin-top: 5px;
+}
+
+.iconGroup {
+  /* margin: 0px !important; */
+  position: sticky !important;
+}

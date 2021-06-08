@@ -1,0 +1,110 @@
+.paperNew {
+    height: 130px;
+    width: 190px;
+    background-size: 100% 100%;
+}
+
+.paperNew1 {
+    /* height: 130px; */
+    width: 100%;
+    background-size: 100%;
+}
+
+.GridNew {
+    margin: 10px !important;
+}
+
+.GridNew_1 {
+    margin: 10px !important;
+    background-color: lawngreen;
+}
+
+.MuiGrid-item {
+    margin: 9px;
+    box-sizing: border-box;
+}
+
+.addRounded {
+    color: #fff;
+    font-size: 4rem !important;
+    margin-top: 20px;
+}
+
+.addNewPaper {
+    margin-top: -20px;
+    color: #fff;
+    /* background-image: ; */
+}
+
+.BackgroundChannel {
+    height: 100vh;
+    backgroundColor: #E8EAEC;
+}
+
+.GridAddChannel {
+    margin: 35px;
+}
+
+.GridNew1 {
+    width: 100%;
+}
+
+.MuiGrid-container {
+    width: 97% !important
+}
+
+.NavAddChannel {
+    width: 100%;
+    background-color: #d5d7d8 !important;
+}
+
+.IconChannel {
+    margin: 10px;
+    margin-left: 20px !important;
+}
+
+.FontIconNav {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #4B0083;
+}
+
+.ChnnalImg {
+    height: 74px;
+}
+
+.ChnnalList {
+    padding-left: 15.5px;
+    height: 74px;
+}
+
+.Created {
+    /* font:15px/15px Roboto; */
+    color: #727272;
+}
+
+.ChannelName {
+    font: medium 10px/10px Roboto bold !important;
+    text-transform: capitalize;
+}
+
+.Cannels {
+    width: 100%;
+}
+
+.BAddChannel {
+    height: 40px;
+    width: 170px;
+    color: #fff;
+    background-color: #4B0083;
+    border: 0px;
+}
+
+.SearchIcon {
+    font-size: 35px !important;
+}
+
+.PdC {
+    padding-bottom: 25px;
+    padding-top: 30px;
+}

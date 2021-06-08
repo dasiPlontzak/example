@@ -1,0 +1,208 @@
+.backgroundImage {
+    background-image: url('../../../assets/recordBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    margin: auto;
+    /* height: 91.4vh; */
+    height: 99vh;
+    top: 10%;
+    background-attachment:fixed;
+}
+.wrap_body {
+    width: 35%;
+    margin-top: 8%;
+    margin-left: 13%;
+}
+.MyChannel{
+    color:#fff;
+    margin-left: 2%;
+    padding-top: 6.5%;
+}
+.MyChannelIcn{
+    font-size: 10px !important;
+    margin-top: 5px;
+}
+.bigText {
+    font-size: 45.3px !important;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.smallText {
+    font: 22px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px !important;
+    margin-bottom: 10%;
+}
+
+.recordIcon {
+    background-position: center;
+    text-align: center;
+    font-size: 270% !important;
+    color:inherit;
+}
+
+.recordIcon, .textOnButtons {
+    color: inherit;
+}
+
+.startCircle:hover{
+    cursor: default !important;
+}
+
+.textOnButtons {
+    color:inherit;
+    font-size: 10px;
+}
+
+.recordButton {
+    position: relative;
+    width: 145px;
+    height: 145px;
+    bottom: 13px;
+    border-radius: 50%!important;
+    background-image: linear-gradient(to top, #260042, #4B0083 100%);
+    border: #260042 15px solid!important;
+    transition: height 0.2s, width 0.2s, border 0.2s, margin 0.2s!important;
+}
+
+.recordButton:hover {
+    margin: 5px;
+    border: #260042 5px solid!important;
+    width: 135px;
+    height: 135px;
+    color: #ecf847 !important;
+}
+
+.recordButton:focus {
+    box-shadow: none !important;
+}
+
+.recordingImg{
+    position: relative;
+    height:220px;
+    margin-right: 23px;
+}
+
+.wrap_recordButton {
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recordingSmallButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 180px !important;
+    background-color: #260042 !important;
+    border: #260042 2px solid !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.RecordingTwiceButton {
+    background-color: #4b00830a;
+    margin-left: 5px;
+    padding-top: 10px;
+    color: #FFFFFF!important;
+    width: 120px;
+    font: normal normal bold 22px/25px Roboto;
+    text-transform: capitalize;
+    border-radius: 0px!important;
+    border: #ffff 3px solid !important;
+}
+
+.RecordingTwiceButton:hover {
+    background-color: #4B0083 !important;
+    border: #260042 3px solid !important;
+}
+.RecordingTwiceSaveButton{
+    margin-left: 5px;
+    padding-top: 10px;
+    color: #FFFFFF!important;
+    width: 120px;
+    font: normal normal bold 22px/25px Roboto;
+    text-transform: capitalize;
+    background-color: #4B0083 !important;
+    border: #260042 3px solid !important;  
+}
+
+.RecordingDivButton {
+    padding-top: 5%;
+}
+
+.recordingDurationSpan::before {
+    content: "\2022";
+    color: #4B0083;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    font-size: 25px;
+    margin-left: -1em;
+}
+
+.wrap_player {
+    background-color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    /* background-color: #007bff; */
+    border-color: #260042 !important;
+    /* border-radius: 0px!important; */
+}
+
+Button::click {
+    border-color: #260042 !important;
+    border: 0px;
+}
+
+.recordingAnimationButton {
+    width: 80%;
+}
+
+.modal-title{
+    font-size: medium !important;
+}
+
+.modal-body{
+    color: #727272;
+    font-size: small;
+}
+
+.buttonFooter{
+    background-color: #FFFFFF !important;
+    border:1px #959595 solid !important;
+    color: #959595 !important;
+    border-radius: 0% !important;
+    width: 80px !important;
+    line-height: 1.3 !important;
+}
+
+.buttonFooter:hover{
+    background-color: #4B0083 !important;
+    border:1px #4B0083 solid !important;
+    color: #FFFFFF !important;
+}
+
+.modalDialog{
+    text-align: center !important;
+    margin-top: 170px !important;
+}
+
+.closeButton{
+    color: #959595 !important;
+    cursor: pointer;
+}
+
+.modal-footer{
+    border-top:0px transparent solid !important;
+    display: flex !important;
+}
+.Back{
+    color:#fff;
+}
